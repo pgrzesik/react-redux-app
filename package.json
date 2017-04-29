@@ -2,8 +2,11 @@
   "name": "react-redux-app",
   "version": "1.0.0",
   "description": "Based on starter kit",
-  "author": "Cory House",
+  "author": "Piotr Grzesik",
   "license": "MIT",
+  "scripts":{
+    "start": "babel-node tools/srcServer.js"
+  },
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
